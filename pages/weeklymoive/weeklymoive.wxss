@@ -1,0 +1,21 @@
+/* pages/weeklymoive/weeklymoive.wxss */
+swiper{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%
+}
+swiper image{
+  width: 100%;
+}
+
+swiper-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+swiper-item navigator{
+  width:100%;
+}

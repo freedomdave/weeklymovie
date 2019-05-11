@@ -1,0 +1,34 @@
+<view class="wrapper">
+  <view class="title">
+    <text>{{movie.original_title}}</text>
+  </view>
+  <!-- <view class="section tc">
+    <video src="{{movie.videos[0].sample_link}}"   controls ></video>
+  </view> -->
+  <view class="img"><image src="{{movie.images.large}}"></image></view>
+  <view><text class="item">评分：{{movie.rating.average}}</text></view>
+  <view><text class="item">已观看人数：{{movie.collect_count}}</text></view>
+  <view><text class="item">想观看人数：{{movie.wish_count}}</text></view>
+  <view><text class="item">年代：{{movie.year}}</text></view>
+  <view><text class="item">语言：{{movie.languages}}</text></view>
+  <view><text class="item">类型：{{movie.genres}}</text></view>
+  <view><text class="item">片长：{{movie.durations}}</text></view>
+  <view><text class="item">片长：{{movie.summary}}</text></view>
+
+  <!-- 演员信息 -->
+  <view>
+    
+    <view wx:for="{{actorList}}" wx:key="12">
+      <view>
+        <image src="{{item.avatars.small}}"></image>
+      </view>
+      <view>
+        <text class="item actor">主演：</text>
+        <text>{{item.name}}</text>
+      </view>
+      <view>
+        <text class="item actor">{{item.summary}}</text>
+      </view>
+    </view>
+  </view>
+</view>

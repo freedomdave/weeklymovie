@@ -1,0 +1,24 @@
+/* pages/index/index.wxss */
+
+.logo image {
+  width:300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+}
+
+.title text{
+  font-size: 60rpx;
+  font-weight: bold;
+}
+.tuijian text{
+  display:inline-block;
+}
+.tuijian navigator{
+  display: inline-block;
+  font-size: 30rpx;
+  font-style: italic;
+  font-weight: bold;
+}
+.hover{
+  color:blanchedalmond;
+}

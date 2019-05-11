@@ -1,0 +1,27 @@
+<view class='container'>
+
+  <view class='logo'>
+    <image src='/images/timg.jpg'></image>
+  </view>
+
+  <view class="title">
+    <text >电影周周看</text>
+  </view>
+
+  <view class="tuijian">
+    <text >我</text>
+    <navigator hover-class="hover" url="/pages/weeklymoive/weeklymoive" class="link">每周推荐</navigator>
+    <text> 一部好电影</text>
+  </view>
+
+  <view class="tuijian">
+    <text >我</text>
+    <text bindtap='nav' >每周推荐</text>
+    <text> 一部好电影</text>
+  </view>
+
+  <view class="weibo">
+    <text >我的微博是：{{weibo}}</text>
+  </view>
+
+</view>

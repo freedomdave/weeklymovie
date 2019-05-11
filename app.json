@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/weeklymoive/weeklymoive",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "电影周周看",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home1.png",
+        "selectedIconPath": "/images/home2.png"
+      },
+      {
+        "pagePath": "pages/weeklymoive/weeklymoive",
+        "text": "推荐",
+        "iconPath": "/images/movie1.png",
+        "selectedIconPath": "/images/movie2.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人",
+        "iconPath": "/images/person1.png",
+        "selectedIconPath": "/images/person2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

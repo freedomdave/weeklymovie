@@ -1,0 +1,22 @@
+/* pages/detail/detail.wxss */
+.wrapper view{
+  padding:30rpx;
+}
+text{
+  /* line-height: 2em; */
+  /* text-align: left; */
+  font-size: 30rpx;
+}
+.wrapper .img{
+  padding: 0;
+  width: 100%;
+}
+.wrapper image{
+  padding: 0;
+  width: 100%;
+}
+.title{
+  padding:40rpx;
+  font-weight: bold;
+  text-align: center;
+}

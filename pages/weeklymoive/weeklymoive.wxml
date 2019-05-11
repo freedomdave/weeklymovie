@@ -1,0 +1,35 @@
+<view class='container'>
+
+  <view>
+    <text class='title'>本周推荐</text>
+  </view>
+
+  <!-- <swiper indicator-dots='true' current='3' >
+    <swiper-item>
+      <image src='/images/bcsj.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/yxbs.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/jgl.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/ttnk.jpg'></image>
+    </swiper-item>
+  </swiper> -->
+
+  <swiper indicator-dots='true' current='{{num}}' autoplay='true' circular='true'>
+    <swiper-item wx:for="{{list}}" wx:key="ds" >
+      <navigator url='/pages/detail/detail?id={{item.id}}&&name="{{item.name}}"'>
+        <image src="/images/{{item.img}}"></image>
+      </navigator>
+      <text>名称：{{item.name}}</text>
+      <text>介绍：{{item.desc}}</text>
+      <text>类型：{{item.moivetype}}</text>
+      <text wx:if="{{item.tuijian}}">强烈推荐</text>
+    </swiper-item>
+  </swiper>
+
+  <button bindtap='changeNum'>点击切换</button>
+</view>

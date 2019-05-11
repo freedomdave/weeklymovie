@@ -1,0 +1,19 @@
+.container{
+  width:100%;
+  /* 100vh相当于视窗的100%高度 */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapper{
+  width:100%;
+  /* 100vh相当于视窗的100%高度 */
+  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: row;
+  justify-content: space-around;
+  align-items: center; */
+  /* padding:15rpx; */
+}

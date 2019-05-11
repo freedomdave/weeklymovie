@@ -1,0 +1,7 @@
+<view class="wrapper">
+  <!-- 显示当前用户的昵称-->
+  <open-data type="userNickName"></open-data>
+  <open-data type="userAvatarUrl"></open-data>
+  <open-data type="userGender" lang="zh_CN"></open-data>
+  <open-data type="userProvince" lang="zh_CN"></open-data>
+</view>
